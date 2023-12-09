@@ -1,0 +1,54 @@
+body{
+    background-image: linear-gradient(to right, lightblue , pink );
+}
+}
+
+button {
+    color: brown;
+    
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    text-align: center;
+    padding: 70px;
+    padding-bottom: 10px;
+}
+
+.container{
+    text-align: center;
+    padding: 60px;
+}
+
+input[type=text] {
+    border-radius: 80px;
+    color: #000000;
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=password] {
+    border-radius: 80px;
+    color: #000000;
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+
+  button[type=submit] {
+    width: 40%;
+    color: #ffffff;
+    background-color: blueviolet;
+    border-radius: 80px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
