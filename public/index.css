@@ -1,12 +1,7 @@
 body{
     background-image: linear-gradient(to right, lightblue , pink );
 }
-}
 
-button {
-    color: brown;
-    
-}
 
 h1 {
     font-size: 40px;
@@ -14,31 +9,47 @@ h1 {
     color: #000000;
     text-align: center;
     padding: 70px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.container{
-    text-align: center;
-    padding: 60px;
+
+
+
+.card-container{
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background-color: pink;
+  
 }
 
 input[type=text] {
     border-radius: 80px;
     color: #000000;
     background-color: antiquewhite;
-    width: 100%;
-    padding: 12px 20px;
+    width: 80%;
+    padding: 10px;
     margin: 8px 0;
     box-sizing: border-box;
+    margin: auto;
+
+  /* width: 60%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: left; */
   }
 
   input[type=password] {
     border-radius: 80px;
     color: #000000;
     background-color: antiquewhite;
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    width: 80%;
+    padding: 10px;
+    margin: 20px 0;
     box-sizing: border-box;
   }
 
@@ -48,7 +59,45 @@ input[type=text] {
     color: #ffffff;
     background-color: blueviolet;
     border-radius: 80px;
-    padding: 12px 20px;
+    padding: 10px;
     margin: 8px 0;
     box-sizing: border-box;
   }
+
+
+  .card {
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 14rem;
+    margin: 30px;    
+}
+
+p {
+  text-align: center;
+  
+}
+.navbar-text {
+  text-align: center;
+  text-decoration: wavy;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: purple;
+  background-color: transparent;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.container {
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 700px;
+  text-align: center;
+  margin: 40 px; /* Center horizontally */
+}
